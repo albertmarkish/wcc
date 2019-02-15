@@ -1,0 +1,64 @@
+body {
+    padding: 25px;
+    min-width:1150px;
+    font-family: Arial;
+}
+
+.canvas {
+    width: 850px;
+    height: 850px;
+    border: solid 1px silver;
+    float: left;
+}
+
+.control-panel {
+    height: 800px;
+    min-width: 200px;
+    float: left;
+    border: solid 1px silver;
+    padding: 25px;
+    margin-left: 25px;
+}
+
+.form-field{
+    padding: 5px;
+    clear:both;
+}
+
+.solution {
+    border: solid 1px silver;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+input[type='number']{
+    width: 100px;
+    float:right;
+}
+
+.column {
+    height: 100%;
+    width: 25px;
+    float: left;
+}
+
+.row {
+    outline: solid 1px green;
+}
+
+.wall {
+    background-color: silver;
+    outline: solid 1px black;
+}
+
+.water {
+    background-color: #08c;
+    outline: none;
+}
+
+.hover {
+    outline: solid 4px green;
+    outline-offset: -3px;
+}

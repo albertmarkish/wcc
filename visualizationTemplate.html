@@ -1,0 +1,13 @@
+<div class="canvas">
+    <div ng-repeat="col in data track by $index" class="column" ng-style="{width: 100/data.length+'%'}">
+        <div ng-repeat="r in col.rows track by $index"
+            class="row"
+            title="Click to set a wall"
+            ng-class="{ wall:r.is_wall, water:r.is_water, hover:r.is_hover }"
+            ng-style="{height: 100/col.rows.length+'%'}"
+            ng-click="OnCellClicked()"
+            ng-mouseover="OnCellMouseover()"
+            ng-mouseleave="OnCellMouseleave()">
+        </div>
+    </div>
+</div>

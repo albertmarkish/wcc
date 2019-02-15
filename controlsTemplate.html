@@ -1,0 +1,19 @@
+<div class="control-panel">
+    <div class="form-field">
+        <span class="label">Columns</span>
+        <input type="number" ng-model="model.column_count" min="1" max="100">
+    </div>
+    <div class="form-field">
+        <span class="label">Rows</span>
+        <input type="number" ng-model="model.row_count" min="1" max="100">
+    </div>
+    <div class="form-field">
+        <button ng-click="Randomize()">Randomize Walls</button>
+    </div>
+    <div class="form-field">
+        <button ng-click="Solve()">Solve</button>
+    </div>
+    <div class="form-field solution" ng-show="model.solution">
+        Solution: {{model.solution.total_water_amount}}
+    </div>
+</div>
