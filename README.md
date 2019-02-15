@@ -1,8 +1,8 @@
-#Water Capacity Calculation
+Water Capacity Calculator
 
 This is a water capacity calculation program written using Angular.js
 
-##How to use
+How to use:
 
 1. Create the walls with your mouse or press Randomize to have them created randomly for you.
 2. Press Solve to see how much water your walls can hold.
